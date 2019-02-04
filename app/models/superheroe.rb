@@ -12,7 +12,7 @@ class Superhero
   end
 
   def self.all
-    SUPERHEROES
+    SUPERHEROS
   end
 
   def self.clear
