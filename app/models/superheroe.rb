@@ -16,7 +16,7 @@ class Superhero
   end
 
   def self.clear
-    SUPERHEROES.clear
+    SUPERHEROS.clear
   end
 
 end
