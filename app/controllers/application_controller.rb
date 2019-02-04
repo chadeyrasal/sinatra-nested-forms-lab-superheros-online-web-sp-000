@@ -6,6 +6,7 @@ class App < Sinatra::Base
 
     get '/' do
       erb :team
+      erb :super_hero
     end
 
     post '/teams' do
@@ -14,7 +15,7 @@ class App < Sinatra::Base
         Superhero.new(superhero_details)
       end
       @superheroes = Superhero.all
-      erb :super_hero
+      
     end
 
 end
