@@ -8,5 +8,7 @@ class Team
   end
 
   def self.all
+    TEAMS
   end
+
 end
