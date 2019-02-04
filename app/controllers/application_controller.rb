@@ -5,7 +5,7 @@ class App < Sinatra::Base
     set :views, Proc.new { File.join(root, "../views/") }
 
     get '/' do
-      erb :team
+
       erb :super_hero
     end
 
@@ -15,7 +15,7 @@ class App < Sinatra::Base
         Superhero.new(superhero_details)
       end
       @superheroes = Superhero.all
-
+      erb :team
     end
 
 end
