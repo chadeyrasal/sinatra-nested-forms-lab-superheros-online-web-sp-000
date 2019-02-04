@@ -6,4 +6,6 @@ class Team
 
   def initialize(params)
   end
+
+  def self.all
 end
