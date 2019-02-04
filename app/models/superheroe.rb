@@ -4,5 +4,5 @@ class Superheroe
 
   SUPERHEROES = []
 
-  
+  def initialize()
 end
