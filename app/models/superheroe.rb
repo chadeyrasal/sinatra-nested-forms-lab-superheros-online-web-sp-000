@@ -1,4 +1,4 @@
-class Superheroe
+class Superhero
 
   attr_reader :name, :power, :biography
 
