@@ -15,4 +15,7 @@ class Superheroe
     SUPERHEROES
   end
 
+  def self.clear
+  end
+
 end
